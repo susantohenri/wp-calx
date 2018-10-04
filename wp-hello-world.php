@@ -20,9 +20,11 @@ function wp_calx_shortcode(){
 	";
 	echo "
 		<div id=\"calx\">
+			<label>Diameter</label>
 			<input type=\"text\" data-cell=\"A1\">
 			<br>
-			<input type=\"text\" data-cell=\"A2\" data-formula=\"A1\">
+			<label>Circle Wide</label>
+			<input type=\"text\" data-cell=\"A2\" data-formula=\"22/7*(A1/2)^2\" data-format=\"0,0[.]00\" disabled=\"disabled\">
 			<br>
 			<button>Calculate !</button>
 		</div>
