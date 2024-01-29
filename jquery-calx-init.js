@@ -1,3 +1,3 @@
 jQuery(document).ready(function () {
-    jQuery('.calx').calx()
+    jQuery('.calx').not(`[data-calx-identifier]`).calx()
 })
